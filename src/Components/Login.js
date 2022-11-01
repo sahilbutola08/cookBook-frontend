@@ -27,7 +27,7 @@ export default function Login() {
                 </div>
                 <div className="main-right">
                     <form>
-                        <input type="text" placeholder="Email" value={email}/>
+                        <input type="text" placeholder="Email"/>
                         <input type="password" placeholder="Password"/>
                         <input type="submit" value="Continue" />
                         <p style={{textAlign: "center", marginBottom: '20px'}}>or continue with</p>
