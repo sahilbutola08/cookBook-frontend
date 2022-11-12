@@ -9,7 +9,7 @@
 }
 
 .body {
-    padding: 0 180px;
+    padding: 0 11.25rem;
 }
 
 .navbar {
@@ -42,16 +42,16 @@
 .main {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 .text h2 {
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .text p {
     font-weight: 350;
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 
 .main-left img{
@@ -60,11 +60,11 @@
 
 .main-right form input{
     display: block;
-    width: 432px;
-    height: 42px;
-    font-size: 20px;
-    margin-bottom: 20px; 
-    border-radius: 5px;
+    width: 27rem;
+    height: 2.625rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem; 
+    border-radius: 0.313rem;
     outline: none;
     border:none;
     color: #7E7C7C;
@@ -79,14 +79,14 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .login-button {
-    margin: 0 10px;
+    margin: 0 0.625rem;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@
     flex-direction: column;
     align-items: center;
     width: 30%;
-    padding-top: 40px;
+    padding-top: 2.5rem;
     height: 100vh;
     overflow-y: scroll;
     background: rgba(108,99,255,0.5);
@@ -122,7 +122,7 @@
 }
 
 .sidebar h3 {
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 
 .container {
@@ -133,7 +133,7 @@
 .show-recipes {
     text-align: center;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 1.25rem;
     float: right;
 }
 
@@ -141,15 +141,15 @@
     width: 15rem;
     border: 1px solid lightgray;
     height: 100%;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 20px;
+    border-radius: 0.313rem;
+    padding: 0.313rem;
+    margin-bottom: 1.25rem;
     background-color: #fff;
     color: black;
 }
 
 .header {
-    padding: 10px;
+    padding: 0.625rem;
     text-align: center;
 }
 
@@ -158,7 +158,7 @@
 }
 
 .ingredients {
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .ingredients ul {
@@ -168,36 +168,36 @@
 
 .ingredients ul li {
     list-style-type: none;
-    padding: 10px;
-    margin: 5px;
+    padding: 0.625rem;
+    margin: 0.313rem;
     background: lightgray;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     font-weight: 400;
     color: gray;
 }
 
 .ingredients-list {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .searchbox input {
-    height: 40px;
-    margin-top: 20px;
-    padding: 10px;
-    width: 250px;
+    height: 2.5rem;
+    margin-top: 1.25rem;
+    padding: 0.625rem;
+    width: 15.625rem;
     outline: none;
-    border-radius: 5px;
-    border: 0.5px solid gray;
+    border-radius: 0.313rem;
+    border: 0.05px solid gray;
 }
 
 .searchbox-recipes input {
-    height: 50px;
-    margin-top: 20px;
-    padding: 10px;
+    height: 3.125rem;
+    margin-top: 1.25rem;
+    padding: 0.625rem;
     width: 80%;
-    font-size: 20px;
+    font-size: 1.25rem;
     outline: none;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     border: 0.5px solid gray;
 }
 
@@ -210,7 +210,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .recipe-box {
@@ -218,13 +218,13 @@
     display: flex;
     align-items: center;
     height: 8rem;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    margin: 20px 15px;
+    box-shadow: 0 3px 0.625rem rgb(0 0 0 / 0.2);
+    margin: 1.25rem 0.938rems;
 }
 
 .recipe-description {
     text-align: left;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 .recipe-img {
@@ -233,13 +233,13 @@
 }
 
 .heading {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .source {
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .numberOfIngredients {
-    font-size: 15px;
+    font-size: 0.938rems;
 }
